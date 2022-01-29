@@ -24,7 +24,26 @@ function evalNumber(){
     var person = prompt("Please enter your name", "YOUR NAME HERE");
     alert("Howdy " + person);
   }
-  
+
+var timer = undefined;
+function getShowTime() {
+    var m = new Date().getMinutes();
+    m = (m < 10) ? "0" + m : m;
+    return m;
+}
+function CurrentTime() {
+    timer = setTimeout(() => {
+        const time = getShowTime();
+        document.getElementById("txt").innerText = "The minute now is:" + time;
+    });
+}
+
+function Disappear() { 
+	var text = document.getElementById("txt");
+    text.style.display="none"; 
+}
+
+
   function scopeValues() {
     if (0==0) {
       var x = 0;
@@ -51,6 +70,9 @@ function evalNumber(){
     selectedElement.style.display = "none";
   
   }
+
+
+
   
   function functionSample(number){
     if (number===0) {

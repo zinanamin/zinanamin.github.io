@@ -11,7 +11,7 @@
   <title>ABOUT</title>
 </head>
 
-<body>
+<body onload="CurrentTime()">
   <div id="nav-placeholder"></div>
   <div class="container pt-5">
     <h1 class="display-1">DCHALK</h1>
@@ -20,14 +20,14 @@
   <div class="container min-vh-50">
     <div class="row mt-5">
         <div class="container mt-5">
-            <div id="buttonGroup" class="h3">W04 Javascript</div>
+            <h1 class="h3">W4 JS</h1>
             <button type="button" class="btn btn-primary" onclick="greetings()">greetings()</button>
             <button type="button" class="btn btn-primary" onclick="scopeValues()">scopeValues()</button>
             <button type="button" class="btn btn-primary" onclick="howdy()">howdy()</button>
             <button type="button" class="btn btn-primary" onclick="evalNumber()">evalNumber()</button>
-            <button type="button" class="btn btn-warning" onclick="changeTitle()">changeTitle()</button>
-            <button type="button" class="btn btn-warning" onclick="alert('A nested function has access to variables in the parent function: 2 + 1 = '+parentFunction())">parentFunction()</button>
-
+            <button type="button" class="btn btn-warning" onclick="CurrentTime()">get_Minute()</button>
+            <button type="button" class="btn btn-warning" onclick="Disappear()">make_Minute_disappear()</button>
+            <div id="txt" class="h6 pt-1"></div>
         </div>
     </div>
   </div>
