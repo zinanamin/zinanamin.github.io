@@ -1,89 +1,57 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <title>Z.WANG</title>
+</head>
 
-    <title>Z.Wang</title>
-  </head>
-  <body>
-
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SITES</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Temple_future</a></li>
-            <li><a class="dropdown-item" href="#">Shrine_future</a></li>
-            <li><a class="dropdown-item" href="#">Palace_future</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Site Map_future</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">ABOUT</a>
-        </li>
-        <li class="nav-item">
-            <a href="contact.html" class="nav-link">CONTACT</a>
-        </li>
-    </ul>
+<body>
+  <div id="nav-placeholder"></div>
+  <div class="container pt-5">
+    <h1 class="display-1">Z. WANG</h1>
+    <h3 class="d-none d-md-block"> &gt; Welcome to Zina's github page </h3>
 
 
-
-    <div class="container">
-        <h1 class="display-1">Z. WANG</h1>
-        <h3 class="d-none d-md-block"> &gt; Welcome to Zinan's github page </h3>
-    </div>
-    <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Suzhou_Wenmiao_2015.04.23_15-50-32.jpg/2880px-Suzhou_Wenmiao_2015.04.23_15-50-32.jpg" alt="szvm">
-
-    <div class="container-lg">
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-                <th scope="row">1</th>
-                <td>M.</td>
-                <td>O.</td>
-                <td>@mdo</td>
-            </tbody>
-            <tbody>
-                <th scope="row">2</th>
-                <td>J.</td>
-                <td>T.</td>
-                <td>@fat</td>
-            </tbody>
-                <tbody>
-                <th scope="row">3</th>
-                <td>L.</td>
-                <td>B.</td>
-                <td>@twi</td>
-            </tbody>
-        </table>
-    </div>        
-        
-    <div class="container-lg">
-        <div class="row">
-            <div class= "col-md display-6">1-1</div>
-            <div class= "col-md display-6">1-2</div>
-            <div class= "col-md display-6">1-3</div>  
+    <div class="container min-vh-50">
+      <div class="row mt-5 pt-5">
+        <div class="col-md">
+          <div class="card w-75 h-200">
+            <img src="https://kingei.org/images/kondo01_re01.jpg" class="card-img-top">
+            <a href="#" class="btn cardBtn">IKARUGA ON FIRE</a>
+          </div>
         </div>
+        <div class="col-md">
+          <div class="card w-75 h-200">
+            <img src="https://oss-product-img.artfoxlive.com/profile-prod/201712/1512381127445_1001774_origin.jpg" class="card-img-top">
+            <a href="#" class="btn cardBtn">HISTORIANS OF BIRD TRACES</a>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card w-75 h-200">
+            <img src="https://pic1.xuehuaimg.com/proxy/baijia/https://f10.baidu.com/it/u=2286316494,1601512978&fm=175&app=25&f=JPEG?w=640&h=760&s=CB0B9245DBF6EFCE5ABAF07B0300807B&access=215967316" class="card-img-top">
+            <a href="#" class="btn cardBtn">BAO'EN, AN EVENT</a>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <footer id="footer-placeholder" class="d-none d-md-block footer container-fluid py-3"></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+  crossorigin="anonymous"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/footer.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
 
 
-
-
-   
-  </body>
 </html>
+
+
