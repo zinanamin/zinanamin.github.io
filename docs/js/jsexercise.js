@@ -79,8 +79,8 @@ for (i in valueArray) {
   newDiv.setAttribute('id', 'div '+i);
   document.getElementById('addElements').appendChild(newDiv);
   newDiv.innerText = valueArray[i];
-};
 }
+
 
 function parseArray(array) {
 var newFruit = prompt("enter a fruit");
