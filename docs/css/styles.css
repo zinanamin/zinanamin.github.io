@@ -32,4 +32,13 @@ h1 {
     background-color:#ececec;
   }
   
+  .firstletter {
+    color: #903;
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
 
