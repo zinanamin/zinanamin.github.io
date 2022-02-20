@@ -60,3 +60,54 @@ function fiveDigit(){
   }
 }
 
+function lastItem() {
+  var arrayName = ['Watermelon', 'Apple', 'Orange', 'Kiwi']
+  var y = arrayName.slice();
+  var selectedElement = document.getElementById("fruit");
+  var x = arrayName.sort();
+  selectedElement.innerText = `The original array is [${y}], and I sorted it alphabetically.
+  The last item of the sorted array is ${x[x.length - 1]}.`;
+}
+
+
+
+
+var valueArray = ['first', 'second', 'third'];
+for (i in valueArray) {
+  var newDiv = document.createElement('div');
+  newDiv.setAttribute('class', 'row');
+  newDiv.setAttribute('id', 'div '+i);
+  document.getElementById('addElements').appendChild(newDiv);
+  newDiv.innerText = valueArray[i];
+};
+}
+
+function parseArray(array) {
+var newFruit = prompt("enter a fruit");
+array.push(newFruit); 
+var x = array.sort(); 
+var y = x.length; 
+console.log(x[y-1]); 
+console.log(array);
+}
+
+var userArray = []
+function sortArray(){
+var userInput = document.getElementById('inputTerm').value;
+var userOutput = document.getElementById('outputRow');
+userArray.push(userInput)
+console.log(userArray);
+document.getElementById('tempList').innerHTML = 'Unsorted list: '+userArray.join(", ");
+document.getElementById('inputTerm').value = '';
+if (userArray.length == 4) {
+  userArray.sort();
+  for (i in userArray) {
+    var newLI = document.createElement('li');
+    newLI.innerText = userArray[i];
+    userOutput.appendChild(newLI);
+  }
+};
+}
+
+
+
