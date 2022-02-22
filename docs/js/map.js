@@ -1,7 +1,6 @@
 function mapLoad(){
     //Define the lat lon coordinate
-    var latLng = [48.8669, 2.3142];
-    var latLng_Louvre =[48.8606, 2.3376]
+    var latLng = [41.789470, -87.599754];
   
     var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
     'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -24,11 +23,8 @@ function mapLoad(){
     L.control.layers(baseLayers).addTo(map);
   
     L.marker(latLng).addTo(map)
-    .bindPopup("<b>Palais de L'industrie</b>").openPopup();
+    .bindPopup("<b>UChicago</b>").openPopup();
   
-    
-    L.marker(latLng_Louvre).addTo(map)
-    .bindPopup("<b>Musée du Louvre</b>").openPopup();
   
   
     //Click event
