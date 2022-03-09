@@ -11,7 +11,7 @@ function mapLoad(){
   
     var map = L.map('map', {
       center: latLng,
-      zoom: 14,
+      zoom: 8,
       layers: [streets]
     });
   
