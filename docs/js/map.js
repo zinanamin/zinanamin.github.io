@@ -1,6 +1,6 @@
 function mapLoad(){
     //Define the lat lon coordinate
-    var latLng = [41.789470, -87.599754];
+    var latLng = [35.697374, 139.701331];
   
     var mbAttr = 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
     'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -23,7 +23,7 @@ function mapLoad(){
     L.control.layers(baseLayers).addTo(map);
   
     L.marker(latLng).addTo(map)
-    .bindPopup("<b>UChicago</b>").openPopup();
+    .bindPopup("<b>[Day1] Nishiokubo, Tokyo</b>").openPopup();
   
   
   

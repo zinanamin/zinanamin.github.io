@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="js/map.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>TWTN_SURVEY</title>
+</head>
+
+<body onload="mapLoad()">
+  <div id="nav-placeholder"></div>
+  <div class="container  mt-5 pt-5">
+    <h1 class="display-1">THE JINSHIN SURVEY</h1>
+
+    <div class="container min-vh-50 pt-5">
+        <p>Spring, 1872, Tokyo: About four years had passed since the decisive battles that ended shogunal rule, and the funding for the new Meiji government’s Exhibition Bureau had just materialized. Machida Hisanari町田久成 (1838-97), its founding head and the Vice Minister of Education, was finally able to realize a major goal: an intensive survey of treasures at the old shrines and temples of the Nara and Kyoto region.  The survey was led by Machida together with another high-ranking arts bureaucrat, Uchida Masao内田政雄 (1839-76), and included three mid-ranking officials, and a number of assistants and lackeys. The leading members were determined to bring a photographer on their trip, along with two painters (one in ink, and one in oils) hired for hand-copying.  The Jinshin Inspection Tour (Jinshin kensa 壬申検査), as it became known, is typically seen as the new Japanese government’s first attempt to assert control and symbolic ownership over the antiquities that would eventually become known as “art objects” symbolizing the nation’s cultural prowess in the eyes of the West.  In the fourth month of 1872, the Meiji central government (Dajōkan 太政官) issued a memo to the imperial court stating that in recent times, the enthusiasm for “novel inventions” (shinki hatsumei 新奇発明) and tastes from Europe had led to a lamentable loss of the treasures of the realm. As a corrective, the Dajōkan memo urged the construction of a museum for antiquities (shūkokan 集古館) and identified the immediate need for local policies for the protection of “ancient vessels and treasures” (koki hōmotsu 古器宝物). It also called for such artifacts to be “copied in pictures and diagrams” (zuga ni mosha itashi図画ニ模写致シ), which would be edited and compiled—presumably at the national level.</p>
+        <p>The following map contains the major sites on the survey, from Tokyo to Nara.</p>
+    <div class="container pt-5">
+     <div id="map"></div>
+    </div>
+    </div>
+
+  <footer id="footer-placeholder" class="d-none d-md-block footer container-fluid mt-auto py-3"></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/footer.js"></script>  
+</body>
+</html>
